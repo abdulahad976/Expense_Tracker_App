@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ExpenseTracker
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.10.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+=======
+# Expense_Tracker_App
+Expense tracker app with multiple functionalities like add expenses , edit and update expense and also display data in table. Implemented in angular framework
+>>>>>>> 48d1428e9f40d7089760afecf3dfbcf14ff45c2f
