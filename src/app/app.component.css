@@ -1,0 +1,103 @@
+.navbar {
+    /* position: sticky;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto;
+    gap: 1rem;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #343a40; 
+    background-color: rgb(98, 172, 49); */
+    position: fixed;
+    top: 0; /* Fix at the top of the page */
+    right: 0; /* Align to the left */
+    left: 0;
+    width: 100%; /* Make it span the entire width of the viewport */
+    z-index: 1000; /* Ensure it stays above other content */
+    /* background-color: #343a40;  */
+    background-color: rgb(98, 172, 49);
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto;
+    gap: 1rem;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    
+
+}
+/* body{
+    padding-top: 60px;
+} */
+
+.navbar .container {
+    display: contents; 
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    display: block;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+    width: 30px;
+    height: 3px;
+    position: relative;
+    top: 0.5rem;
+    left: 0.5rem;
+}
+
+.navbar-collapse {
+    display: grid;
+    grid-template-columns: repeat(5, auto); 
+    gap: 1rem;
+    justify-content: flex-start;
+}
+
+.navbar-nav {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffcc00; /* Change hover color to gold */
+}
+
+/* Make Navbar Responsive */
+@media (max-width: 768px) {
+    .navbar {
+        grid-template-columns: 1fr;
+    }
+    .navbar-toggler {
+        display: block;
+    }
+    .navbar-collapse {
+        grid-template-columns: 1fr; /* Stack items vertically */
+        gap: 0.5rem;
+    }
+}
