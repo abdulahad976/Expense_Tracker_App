@@ -24,7 +24,7 @@
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2); /* Intense shadow on hover */
 }
 
-footer {
+/* footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,7 +33,7 @@ footer {
     text-align: center;
     font-size: 0.9rem;
     color: #ffffff;
-}
+} */
 
 .hero {
     display: flex;
@@ -86,7 +86,6 @@ footer {
 .feature-card h3 {
     font-size: 1.5rem;
     font-weight: 600;
-    /* color: var(--text-color); */
     color: blue;
 
     margin-bottom: 1rem;

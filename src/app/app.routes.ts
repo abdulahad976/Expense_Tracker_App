@@ -29,8 +29,8 @@ export const routes: Routes = [
         path: 'filter_expense',
         component: FilterexpenseComponent
     },
-    // {
-    //     path: 'ng-prime',
-    //     component: PrimeNgComponent
-    // }
+    {
+        path: 'ng-prime',
+        component: PrimeNgComponent
+    }
 ];

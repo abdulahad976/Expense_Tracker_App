@@ -1,3 +1,32 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 
+
+<ag-grid-angular 
+  class="ag-theme-quartz-dark" 
+  [rowData]="rowData" 
+  [columnDefs]="colDefs" 
+  [defaultColDef]="defaultColDef"
+  [pagination]="true"
+  [rowSelection]="rowSelection" 
+  [paginationPageSize]="10"
+   [paginationPageSizeSelector]="paginationPageSizeSelector" 
+  >
+</ag-grid-angular>
+
+<!-- <ag-grid-angular 
+  class="ag-theme-quartz-dark" style="width: 75.2%;"
+  [rowData]="formdata" 
+  [columnDefs]="newColumnDefs" 
+  [pagination]="true"
+  [rowSelection]="rowSelection" 
+  [paginationPageSize]="10"
+  [paginationPageSizeSelector]="paginationPageSizeSelector"
+  >
+</ag-grid-angular> -->
+
+<app-modal [title]="'Modal Example'" #modal>
+    <p>Some Content</p>
+</app-modal>
+
+<!-- <button (click)="modal.open()">Open Modal</button> -->
